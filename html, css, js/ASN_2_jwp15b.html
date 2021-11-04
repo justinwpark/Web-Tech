@@ -1,0 +1,66 @@
+<!-- This is a colorful webpage that surveys the user on technology -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="ASN_3_jwp15b.css">
+		<script src="ASN_6_jwp15b.js"></script>
+		<title>Technology Survey</title>
+		<meta name="description"
+			content="Asn 2 html Form Elements and Extras" />
+		<meta name="keywords"
+			content="Sept. 6, Asn 1-6, jwp15b, IT and IS, 5.4 hours" />
+		<meta http-equiv="author"
+			content="Justin Park" />
+	</head>
+	<body>
+		<h1>Technology Survey</h1>
+		<form action="http://www.TechnologySurvey.php" method="get">
+				<p>
+				<label>Name:  <input type="text" name="name" size="32" maxlength="120"></label><br />
+				<label>BannerID:<input type="BannerID" name="BannerID" size="30" maxlength="10"></label><br />
+				</p>
+			<fieldset>
+				<p>
+					<label for="survey-device">What device are you taking the survey on?</label>
+					<select name="" id="survey-device">
+						<option value="PC">PC</option>
+						<option value="Laptop">Laptop</option>
+						<option value="Tablet">Tablet</option>
+						<option value="Phone">Phone</option>
+					</select>
+				</p>
+				<p>
+					How old is your current phone?<br />
+					<label><input type="radio" name="age" value="Lessthan1" /> Less than 1 Year</label>
+					<label><input type="radio" name="age" value="Between1and3" /> Between 1 Year and 3 Years</label>
+					<label><input type="radio" name="age" value="Morethan3" /> More than 3 Years</label>
+				</p>
+				<div>
+					<label for="comments">What will be your next device purchase:</label><br />
+					<textarea rows="4" cols="40" id="comments"></textarea>
+				</div>
+				
+				<input type="submit" value="Submit review">
+			</fieldset>
+		</form>
+
+		<p2> 
+			<br>Learn more about Technology Devices
+		<ul>
+			<li><a href="https://www.apple.com">Apple</a></li>
+			<li><a href="https://www.samsung.com/us/">Samsung</a></li>
+			<li><a href="https://www.dell.com/en-us">Dell</a></li>
+			<li><a href="https://www.microsoft.com/en-us/">Microsoft</a></li>
+		</ul>
+		</p2>
+
+		<img src="tablet.jpeg" alt="Tablet">
+
+		<audio controls>
+  		<source src="computer.ogg" type="audio/ogg">
+  		<source src="computer.mp3" type="audio/mpeg">
+		Your browser does not support the audio element.
+		</audio>
+
+	</body>
+</html>

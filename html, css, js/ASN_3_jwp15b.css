@@ -1,0 +1,128 @@
+body {
+	background-color: rgb(170,170,220);
+    border: 50px solid white};
+
+h1 {
+	background-color: darkblue;
+    color: white;
+    font-family: verdana;
+    font-size: 300%;
+    border: 5px solid grey;
+    border: 1px darkblue;
+    padding: 5px;}
+
+p,div {
+	background-color: lightgrey;
+    color: rgb(70,70,70);
+    font-family: courier;
+    font-size: 100%;
+    border: 1px solid white;
+    padding: 12px;}
+
+img {
+    opacity: 0.1;
+    filter: alpha(opacity=50);}
+img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);}
+div:hover {
+    background-color: rgb(30,30,230);}
+p::first-letter {
+    color: #000000;
+    font-size: xx-large;}
+h1::after {
+    content: url(iphone.jpeg);}
+a:link {
+    color: red;}
+a:visited {
+    color: purple;}
+a:hover {
+    color: green;}
+a:active {
+    color: blue;}
+
+ul li {
+    background: #cce5ff;
+    margin: 5px;
+    padding: 5px;}
+
+* {box-sizing: border-box;}
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+.month {
+    padding: 70px 25px;
+    width: 100%;
+    background: #1abc9c;
+    text-align: center;
+}
+
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.month .prev {
+    float: left;
+    padding-top: 10px;
+}
+
+.month .next {
+    float: right;
+    padding-top: 10px;
+}
+
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color: #ddd;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #666;
+    text-align: center;
+}
+
+.days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color: #777;
+}
+
+.days li .active {
+    padding: 5px;
+    background: #1abc9c;
+    color: white !important
+}
+
+@media screen and (max-width:720px) {
+    .weekdays li, .days li {width: 13.1%;}
+}
+
+@media screen and (max-width: 420px) {
+    .weekdays li, .days li {width: 12.5%;}
+    .days li .active {padding: 2px;}
+}
+
+@media screen and (max-width: 290px) {
+    .weekdays li, .days li {width: 12.2%;}
+}

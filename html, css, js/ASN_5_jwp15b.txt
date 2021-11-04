@@ -1,0 +1,8 @@
+150.252.118.198
+/var/www/html
+Justin Park
+jwp15b
+2 hours researching
+0.5 hour coding
+2.5 hours testing and troubleshooting
+IT225pswd
